@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body{
+    background: linear-gradient(to left, #9d50bb, #6e48aa);
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body,html{
+    height:100%;
+}
+
+.container{
+    max-width:575px;
+    width:calc(100% - 30px);
+    min-height:400px;
+    background: snow;
+    border-radius:25px;
+    box-shadow: 1px 1px 11px black;
+    margin:auto;
+    padding:20px;
+
+    .header-text1{
+        font-size: 25px;
+        font-weight:bold;
+        text-align: center;
+    }
+
+    .header-text2{
+        font-size: 23px;
+        font-weight:bold;
+        text-align: center;
+    }
+
+    .btn-flex{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .input-box{
+            font-size: 30px;
+            width:calc(100% - 10px);
+            min-height:5px;
+            background: snow;
+            border-radius:25px;
+            box-shadow: 5px 5px 9px black;
+            margin:auto auto;
+            padding:20px;
+            font-size: 19px;
+            text-align:center;
+            border:none;
+            outline: none;
+        }
+
+        .guess-btn{
+            width:5px;
+            width:calc(50% - 10px);
+            min-height: 40px;
+            margin:20px auto;
+            background: #6e48aa;
+            font-size: 19px;
+            border:none;
+            border-radius:25px;
+        }
+    }
+
+    .text-1, .text-2, .text-3{
+        font-size: 19px;
+        text-align:center;
+    }
+}

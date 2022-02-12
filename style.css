@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+}
+
+body {
+  background: -webkit-gradient(linear, right top, left top, from(#9d50bb), to(#6e48aa));
+  background: linear-gradient(to left, #9d50bb, #6e48aa);
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body, html {
+  height: 100%;
+}
+
+.container {
+  max-width: 575px;
+  width: calc(100% - 30px);
+  min-height: 400px;
+  background: snow;
+  border-radius: 25px;
+  -webkit-box-shadow: 1px 1px 11px black;
+          box-shadow: 1px 1px 11px black;
+  margin: auto;
+  padding: 20px;
+}
+
+.container .header-text1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container .header-text2 {
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container .btn-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .btn-flex .input-box {
+  font-size: 30px;
+  width: calc(100% - 10px);
+  min-height: 5px;
+  background: snow;
+  border-radius: 25px;
+  -webkit-box-shadow: 5px 5px 9px black;
+          box-shadow: 5px 5px 9px black;
+  margin: auto auto;
+  padding: 20px;
+  font-size: 19px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+.container .btn-flex .guess-btn {
+  width: 5px;
+  width: calc(50% - 10px);
+  min-height: 40px;
+  margin: 20px auto;
+  background: #6e48aa;
+  font-size: 19px;
+  border: none;
+  border-radius: 25px;
+}
+
+.container .text-1, .container .text-2, .container .text-3 {
+  font-size: 19px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
